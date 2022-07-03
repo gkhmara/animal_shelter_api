@@ -2,7 +2,7 @@
 
 #### Greg Khmara
 
-#### This is a program that allows the user to enter in Products and Reviews
+#### This is an API that keeps track of shelter animals. They are listed by name, age, breed.
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@
 
 ## Description
 
-This script allows a user to enter in product and add a review to those products. It also allows the user to edit or delete the products and reviews.
+This script allows the user to access an API that stores info about shelter animals. The API can be added to and animals can be deleted.
 
 ## Setup/Installation Requirements
 
@@ -34,7 +34,8 @@ This script allows a user to enter in product and add a review to those products
 * To make a user a admin:<br>1. open the terminal or console<br>2. type *rails c* to open rails console<br>3. type *User.first.update(admin:true)*<br>- Admins have access to all portions of the site. They can create and delete products and reviews
 
 ## Endpoints
- | Usage | Method | URL | Parameters |
+ | Method | URL | Parameters |
+ | :---:| :---: | :---: |
 
 ## Known Bugs
 
