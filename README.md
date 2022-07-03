@@ -36,6 +36,8 @@ This script allows the user to access an API that stores info about shelter anim
 ## Endpoints
  | Method | URL | Parameters |
  | :---:| :---: | :---: |
+ | GET | `localhost:3000/animals` | `localhost:3000/animals` | Returns a list of 5 animals |
+ | GET | `localhost:3000/animals?page=2` | `localhost:3000/animals?page=2` | Returns 5 additional animals |
 
 ## Known Bugs
 
