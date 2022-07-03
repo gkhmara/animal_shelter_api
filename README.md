@@ -34,10 +34,10 @@ This script allows the user to access an API that stores info about shelter anim
 * To make a user a admin:<br>1. open the terminal or console<br>2. type *rails c* to open rails console<br>3. type *User.first.update(admin:true)*<br>- Admins have access to all portions of the site. They can create and delete products and reviews
 
 ## Endpoints
- | Method | URL | Parameters |
- | :---:| :---: | :---: |
- | GET | `localhost:3000/animals` | `localhost:3000/animals` | Returns a list of 5 animals |
- | GET | `localhost:3000/animals?page=2` | `localhost:3000/animals?page=2` | Returns 5 additional animals |
+ | Usage | Method | URL | Parameters |
+ | :---:| :---: | :---: | :---: |
+ | See all items | GET | `localhost:3000/animals` | |
+ | See 5 addtional items | GET | `localhost:3000/animals?page=2` | :page |
 
 ## Known Bugs
 
