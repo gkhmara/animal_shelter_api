@@ -38,6 +38,10 @@ This script allows the user to access an API that stores info about shelter anim
  | :---:| :---: | :---: | :---: |
  | See all items | GET | `localhost:3000/animals` | |
  | See 5 addtional items | GET | `localhost:3000/animals?page=2` | :page |
+ | Find an item by ID | GET | `localhost:3000/animals/:id` | :id |
+ | Add an item | POST | `localhost:3000/animals` | :name, :age, :breed |
+ | Update an item | PUT | `localhost:3000/animals/:id` | :name, :age, :breed |
+ | Delete an item | Delete | `localhost:3000/animals` | :id |
 
 ## Known Bugs
 
