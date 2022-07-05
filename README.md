@@ -1,4 +1,4 @@
-# Specialty_Food_Products
+# Animal_Shelter_API
 
 #### Greg Khmara
 
@@ -29,11 +29,9 @@ This script allows the user to access an API that stores info about shelter anim
 * Type the command *postgres* to start server
 * Create a new tab in the terminal or console and type the command *rails s*
 * Open a web browser and navigate to *localhost:3000*
-* Click the *Sign up!* button
-* Create a user account<br>- Non-admin users are restricted to only adding reviews
-* To make a user a admin:<br>1. open the terminal or console<br>2. type *rails c* to open rails console<br>3. type *User.first.update(admin:true)*<br>- Admins have access to all portions of the site. They can create and delete products and reviews
 
 ## Endpoints
+
  | Usage | Method | URL | Parameters |
  | :---:| :---: | :---: | :---: |
  | See all items | GET | `localhost:3000/animals` | |
@@ -41,7 +39,7 @@ This script allows the user to access an API that stores info about shelter anim
  | Find an item by ID | GET | `localhost:3000/animals/:id` | :id |
  | Add an item | POST | `localhost:3000/animals` | :name, :age, :breed |
  | Update an item | PUT | `localhost:3000/animals/:id` | :name, :age, :breed |
- | Delete an item | Delete | `localhost:3000/animals` | :id |
+ | Delete an item | DELETE | `localhost:3000/animals` | :id |
 
 ## Known Bugs
 
@@ -51,7 +49,7 @@ This script allows the user to access an API that stores info about shelter anim
 
 MIT License
 
-Copyright (c) 06-19-22 Greg Khmara
+Copyright (c) 06-02-22 Greg Khmara
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
